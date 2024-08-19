@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/voitures")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class VoitureController {
 
     @Autowired

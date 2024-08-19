@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/annonces")
-@CrossOrigin(origins = "http://localhost:4200") // Replace with your frontend URL
+@CrossOrigin // Replace with your frontend URL
 public class AnnonceController {
 
     @Autowired

@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/conducteurs")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class ConducteurController {
 
     @Autowired
