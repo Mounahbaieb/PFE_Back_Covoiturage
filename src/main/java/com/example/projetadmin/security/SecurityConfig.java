@@ -18,7 +18,8 @@ public class SecurityConfig {
             .csrf().disable()
             .authorizeHttpRequests()
             
-            .requestMatchers("/**","/conducteurs/signup", "/conducteurs/login").permitAll()
+            .requestMatchers("/**","/conducteurs/signup","/annonces/**" ,"/conducteurs/login").permitAll()
+            
             .anyRequest().authenticated()
             .and()
             .httpBasic();

@@ -12,6 +12,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/annonces")
 @CrossOrigin // Replace with your frontend URL
+
+
 public class AnnonceController {
 
     @Autowired
